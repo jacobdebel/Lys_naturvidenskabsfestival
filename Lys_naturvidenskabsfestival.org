@@ -1,0 +1,212 @@
+#+title: Lys
+#+subtitle: Elektromagnetisk stråling
+#+author: Vibenshus Gymnasium
+#+date: 
+# Themes: beige|black|blood|league|moon|night|serif|simple|sky|solarized|white
+#+reveal_theme: night
+#+reveal_title_slide: <h2>%t</h2><h3>%s</h3><h4>%a</h4><h4>%d</h4>
+#+reveal_title_slide_background: ./img/Forside.jpg
+#+reveal_default_slide_background: #3a5d53
+#+reveal_extra_options: slideNumber:"c/t",progress:true,transition:"slide",navigationMode:"default",history:false,hash:true
+# #+reveal_extra_attr: style="color:red"
+#+options: toc:nil num:nil tags:nil timestamp:nil ^:{}
+
+* Støttet af
+
+#+attr_html: :width 50%
+[[./img/naturvidenskabsfestival.png]]
+
+* Programmet for fysik
+- Hvad er lys?
+- Hvorfor kan elektroner skabe lys?
+- Emission og kvantemekanik
+- Find dit grundstof/molekyle
+- Bølger eller partikler?
+- Brydning!
+- Lys i din hverdag
+
+  
+* Elektromagnetisk stråling
+
+#+attr_html: :width 50%
+[[./img/EM_boelge.gif]]
+
+** Lærereksperiment
+
+#+attr_html: :width 50%
+[[./img/polarisering.gif]]
+
+*** En video og en forklaring
+
+#+begin_export html
+<iframe width="640" height="360" src="https://www.youtube.com/embed/5SIxEiL8ujA" title="Three polarizing filters: a simple demo of a creepy quantum effect" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+#+end_export
+
+Læs en forklaring her: [[http://alienryderflex.com/polarizer/]]
+
+** En elektron accelererer
+
+#+attr_html: :width 50%
+[[./img/E_felt.gif]]
+
+#+reveal: split
+
+#+attr_html: :width 50%
+Bevæger sig med lysets hastighed.
+
+[[./img/field_a.gif]]
+
+*** Hvis man skifter retning
+
+#+attr_html: :width 50%
+[[./img/dipol.gif]]
+
+*** Radio
+
+#+attr_html: :width 50%
+[[https://phet.colorado.edu/sims/cheerpj/radio-waves/latest/radio-waves.html?simulation=radio-waves][file:./img/radiosimulering.png]]
+
+Højreklik på billedet og åbn i ny tab.
+
+
+* Kvantemekanik
+:PROPERTIES:
+:reveal_background: ./img/kvantemekanik.png
+:reveal_background_size: 1000px
+:END:
+
+** En elektron skifter bane
+
+#+attr_html: :width 50%
+[[./img/atommodel.gif]]
+
+
+** Atomer og molekyler har fingeraftryk
+:PROPERTIES:
+:reveal_background: ./img/fingeraftryk.jpg
+:END:
+
+** Emission og absorption
+#+attr_html: :width 40%
+[[./img/spektre.gif]]
+
+** Alle grundstoffer
+#+attr_html: :width 750px
+[[./img/periodisk_system_spektra.jpg]]
+
+* Eksperiment 1: Find dit grundstof
+#+attr_reveal: :frag (appear)
+- Tag dit emissionsspektrum og studér det nøje
+- Gå rundt blandt bordene. Forsøg at finde netop dit grundstof.
+- Tag de skøre briller på.
+- Se på spektrallamperne igen. Vurdér igen, hvilket grundstof der er dit. Det kan godt snyde lidt!
+
+  
+* Bølger eller partikler?
+Tja, lad os spørge lyset!
+
+** Sjove ting med bølger
+#+attr_html: :width 50%
+[[./img/vandboelger.gif]]
+
+** Set fra oven
+#+attr_html: :width 50%
+[[./img/dobbeltspalte.gif]]
+
+* Eksperiment 2
+- Tag en laser
+- Tag et optisk gitter
+- Send laserlyset gennem gitteret.
+- *Hvad sker der?*
+- Prøv med en anden farve! Eller et andet gitter!
+- *Hvad sker der så?*
+
+* Lys er som bølger
+:PROPERTIES:
+:reveal_background: ./img/boelgebaggrund.jpg
+:END:
+
+* Lysenergi
+#+reveal_html: <div style="display: grid; grid-template-columns: auto auto;">
+#+reveal_html: <div>
+*Klassisk*
+
+#+attr_html: :width 50%
+[[./img/klassisk.jpg]]
+#+reveal_html: </div>
+
+#+reveal_html: <div>
+*Kvantemekanisk*
+#+attr_html: :width 50%
+[[./img/kvantemekanisk.jpg]]
+#+reveal_html: </div>
+#+reveal_html: </div>
+
+#+reveal: split
+$$E_\text{foton} = h \cdot f$$
+
+* Partikel
+:PROPERTIES:
+:reveal_background: ./img/partikel.jpg
+:END:
+
+* Lys er ...
+:PROPERTIES:
+:reveal_background: ./img/lanterner.gif
+:END:
+
+både bølger og partikler
+
+* Brydning
+:PROPERTIES:
+:reveal_background: ./img/Brydning.jpg
+:reveal_background_size: 60%
+:END:
+
+* Mikroeksperiment 1
+- Sæt en kniv i det fyldte glas
+- *Hvad sker der?*
+
+  
+* Eksperiment 3
+:PROPERTIES:
+:reveal_background: ./img/eksperiment.jpg
+:END:
+
+#+reveal_html: <div style="font-size: 60%;">
+#+reveal_html: <div style="display: grid; grid-template-columns: 50% 50%;">
+#+reveal_html: <div>
+- Tænd for lysboksen. Maks 12V! (Alternativt tag en laser.)
+- Tag nogle optiske dimser.
+- Lys gennem dimserne med lysboksen/laseren.
+- Hvad sker der?
+- Kan man få laseren til helt af afbøje?
+#+reveal_html: </div>
+
+#+reveal_html: <div>
+
+#+reveal_html: </div>
+#+reveal_html: </div>
+
+
+ 
+**  En simulering
+#+begin_export html
+<iframe src="https://phet.colorado.edu/sims/html/bending-light/latest/bending-light_en.html"
+        width="800"
+        height="600"
+        allowfullscreen>
+</iframe>
+#+end_export
+
+* Lys i din hverdag
+Dine øjne bliver snydt!
+
+** Mikroeksperiment 2
+- Tag en lille bitte dråbe vand på skærmen af jeres telefon.
+- Hav meget gerne hvidt billede på skærmen.
+- Hvilke farver kan I se?
+
+  
+* Tak for i dag!
+- Og husk lys på jeres cykler!
